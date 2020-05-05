@@ -1,0 +1,318 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Demo Tailwind CSS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="dist/css/app.css">
+    <meta name="theme-color" content="#FF7171">
+</head>
+
+<body class="font-body font-normal text-base-color leading-normal antialiased">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to
+    improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<!--Header Section-->
+<header class="bg-white py-24 px-16 fixed top-0 left-0 right-0 z-50">
+    <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+            <!--Logo-->
+            <div>
+                <a href="/" title="Brand Logo">
+                    <img src="./dist/img/logo-header.svg" alt="Brand Logo">
+                </a>
+            </div>
+            <!--End Logo-->
+
+            <!--Navigation-->
+            <nav>
+                <ul class="flex items-center space-x-48">
+                    <li><a class="font-semibold hover:text-primary transition duration-75" href="/" title="Home">Home</a></li>
+                    <li><a class="font-semibold hover:text-primary transition duration-75" href="#" title="Services">Services</a></li>
+                    <li><a class="font-semibold hover:text-primary transition duration-75" href="/" title="Blog">Blog</a></li>
+                    <li><a class="font-semibold hover:text-primary transition duration-75" href="/" title="Contact Us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!--End Navigation-->
+        </div>
+    </div>
+</header>
+<!--End Header Section-->
+
+<!--Main Container Part-->
+<main>
+    <!--Hero Section-->
+    <section class="px-16">
+        <div class="container mx-auto relative">
+            <div class="relative z-20 md:h-screen flex items-center py-100 md:py-0">
+                <div class="max-w-sm">
+                    <span class="font-semibold mb-24 text-32 block">This is short headline tag</span>
+                    <h1 class="font-bold text-70 mb-24 leading-tight">
+                        Main Headline <br> for Hero Banner
+                    </h1>
+                    <p class="text-24">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    </p>
+                    <div class="mt-64">
+                        <a href="#" class="inline-block bg-base-color text-white
+            py-24 px-64 hover:bg-primary text-24 font-bold"
+                           title="Get Started">Get started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-40 opacity-25 xl:opacity-100 absolute bottom-0 flex items-center right-0 top-0 z-10">
+                <img class="mx-auto" src="./dist/img/hero-illustration.svg" alt="Hero Illustration">
+            </div>
+        </div>
+    </section>
+    <!--End Hero Section-->
+
+    <!--About Section-->
+    <section class="px-16 bg-primary relative">
+        <div class="container mx-auto">
+            <div class="py-120 text-white">
+                <div class="w-1/2">
+                    <div class="pr-100">
+                        <h3 class="font-bold text-40 mb-32">Our Story</h3>
+                        <p class="text-24">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard
+                            dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-1/2 top-0 right-0 bottom-0">
+            <img class="h-full object-cover" src="./dist/img/about-banner.jpg" alt="About Hero Banner">
+        </div>
+    </section>
+    <!--End About Section-->
+
+    <!--Feature Section-->
+    <section class="px-16 py-120">
+        <div class="container mx-auto">
+            <div class="text-center mb-48">
+                <h3 class="font-bold text-40">Packed with features</h3>
+            </div>
+            <div>
+                <!--Feature Grid-->
+                <div class="flex flex-wrap -mx-16 -mb-32">
+                    <div class="w-full md:w-1/3 px-16 mb-32">
+                        <div class="flex bg-gray-light p-32 rounded hover:shadow-xl">
+                            <div class="w-64 h-64 rounded-full bg-primary flex items-center justify-center">
+                                <img class="inline-block"
+                                     src="./dist/img/feature-icon-1.svg" alt="Feature Icon 1">
+                            </div>
+                            <div class="flex-1 pl-16 leading-relaxed">
+                                <h4 class="font-semibold text-24">Freebies</h4>
+                                <p class="text-14 mb-4">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been
+                                    the industry
+                                    sitting.</p>
+                                <a class="inline-block font-bold text-18 text-primary" href="#" title="Feature link">Link <span>-></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/3 px-16 mb-32">
+                        <div class="flex bg-gray-light p-32 rounded hover:shadow-xl">
+                            <div class="w-64 h-64 rounded-full bg-primary flex items-center justify-center">
+                                <img class="inline-block"
+                                     src="./dist/img/feature-icon-1.svg" alt="Feature Icon 1">
+                            </div>
+                            <div class="flex-1 pl-16 leading-relaxed">
+                                <h4 class="font-semibold text-24">Freebies</h4>
+                                <p class="text-14 mb-4">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been
+                                    the industry
+                                    sitting.</p>
+                                <a class="inline-block font-bold text-18 text-primary" href="#" title="Feature link">Link <span>-></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/3 px-16 mb-32">
+                        <div class="flex bg-gray-light p-32 rounded hover:shadow-xl">
+                            <div class="w-64 h-64 rounded-full bg-primary flex items-center justify-center">
+                                <img class="inline-block"
+                                     src="./dist/img/feature-icon-1.svg" alt="Feature Icon 1">
+                            </div>
+                            <div class="flex-1 pl-16 leading-relaxed">
+                                <h4 class="font-semibold text-24">Freebies</h4>
+                                <p class="text-14 mb-4">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been
+                                    the industry
+                                    sitting.</p>
+                                <a class="inline-block font-bold text-18 text-primary" href="#" title="Feature link">Link <span>-></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Feature Grid-->
+            </div>
+        </div>
+    </section>
+    <!--End Feature Section-->
+
+    <!--Team Section-->
+    <section class="px-16 py-120 bg-secondary">
+        <div class="container mx-auto">
+            <div class="text-center mb-48 max-w-sm mx-auto">
+                <h3 class="font-bold text-40 mb-24">Meet the Team</h3>
+                <p class="text-18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+            </div>
+            <!--Team Grid-->
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 px-32 mb-32">
+                    <div class="text-center">
+                        <div>
+                            <img class="mx-auto" src="./dist/img/team-1.png" alt="Team 1">
+                        </div>
+                        <div class="mt-16">
+                            <h3 class="text-32 font-semibold">Benito Noboa</h3>
+                            <p class="mt-8 text-24">UI UX Designer</p>
+                            <div class="mt-16">
+                                <ul class="flex items-center justify-center space-x-24">
+                                    <li>
+                                        <a href="#" title="Twitter" class="hover:text-primary">
+                                            <svg class="fill-current w-24 h-24">
+                                                <use xlink:href="./dist/img/icons.svg#ic-twitter"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <!--<img src="./dist/img/ic-twitter.svg" alt="Social Twitter">-->
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Dribbble">
+                                            <img src="./dist/img/ic-dribbble.svg" alt="Social Dribbble">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Behance">
+                                            <img src="./dist/img/ic-behance.svg" alt="Social Behance">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-32 mb-32">
+                    <div class="text-center">
+                        <div>
+                            <img class="mx-auto" src="./dist/img/team-2.png" alt="Team 2">
+                        </div>
+                        <div class="mt-16">
+                            <h3 class="text-32 font-semibold">Bob Steven</h3>
+                            <p class="mt-8 text-24">Backend Developer</p>
+                            <div class="mt-16">
+                                <ul class="flex items-center justify-center space-x-24">
+                                    <li>
+                                        <a href="#" title="Twitter">
+                                            <img src="./dist/img/ic-twitter.svg" alt="Social Twitter">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Dribbble">
+                                            <img src="./dist/img/ic-dribbble.svg" alt="Social Dribbble">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Behance">
+                                            <img src="./dist/img/ic-behance.svg" alt="Social Behance">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-32 mb-32">
+                    <div class="text-center">
+                        <div>
+                            <img class="mx-auto" src="./dist/img/team-3.png" alt="Team 3">
+                        </div>
+                        <div class="mt-16">
+                            <h3 class="text-32 font-semibold">Jack Sparrow</h3>
+                            <p class="mt-8 text-24">Frontend Developer</p>
+                            <div class="mt-16">
+                                <ul class="flex items-center justify-center space-x-24">
+                                    <li>
+                                        <a href="#" title="Twitter">
+                                            <img src="./dist/img/ic-twitter.svg" alt="Social Twitter">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Dribbble">
+                                            <img src="./dist/img/ic-dribbble.svg" alt="Social Dribbble">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Behance">
+                                            <img src="./dist/img/ic-behance.svg" alt="Social Behance">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Team Grid-->
+        </div>
+    </section>
+    <!--End Team Section-->
+</main>
+<!--End Main Container Part-->
+
+<!--Footer Section-->
+<footer class="bg-gary-light pt-64 pb-40 text-center">
+    <div class="container mx-auto">
+        <div class="flex items-center justify-center">
+            <div class="max-w-xss mx-auto">
+                <div class="mb-24">
+                    <img class="mx-auto" src="./dist/img/logo-footer.svg" alt="Logo Footer">
+                </div>
+                <p class="mb-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy.</p>
+                <div>
+                    <ul class="flex items-center justify-center space-x-24">
+                        <li>
+                            <a href="#" title="Behance">
+                                <img src="./dist/img/ic-behance.svg" alt="Social Behance">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Twitter" class="hover:text-primary">
+                                <svg class="fill-current w-24 h-24">
+                                    <use xlink:href="./dist/img/icons.svg#ic-twitter"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                                <!--<img src="./dist/img/ic-twitter.svg" alt="Social Twitter">-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Dribbble">
+                                <img src="./dist/img/ic-dribbble.svg" alt="Social Dribbble">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="opacity-25 border-t-2 border-gray-dark max-w-xl mx-auto mt-48 mb-24">
+    <!--Copyright-->
+    <div class="">
+        <p class="text-12 text-gray-dark">© 2020 <a class="inline-block hover:text-primary"
+                     href="integrid.solutions"
+                     target="_blank"
+                     title="Integrid Solutions Web">
+            Integrid Solutions</a> Design</p>
+    </div>
+    <!--End Copyright-->
+</footer>
+<!--End Footer Section-->
+</body>
+
+</html>
