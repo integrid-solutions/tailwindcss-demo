@@ -1,7 +1,9 @@
 const spacedItems = require('tailwindcss-spaced-items')
 
 module.exports = {
-  purge: [],
+  purge: [
+    './*.html',
+  ],
   target: 'relaxed',
   prefix: '',
   important: false,
